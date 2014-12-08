@@ -1,0 +1,79 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+     <link rel="stylesheet" href="/lib/nivo-slider.css" media="screen">
+    <script src="lib/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="textarea-helper.js"></script>
+    <script type="text/javascript" src="speech-recognizer.js"></script>
+   
+    <script src="lib/sweet-alert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/sweet-alert.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Latest compilced and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    
+    <!--jQuery & slider -->
+   
+
+    <script type="text/javascript" src="hashmap-scoring.js"></script>
+    
+     <!--SLIDER-->
+    <script>
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+            directionNavHide: false,
+            captionOpacity: 1,
+            prevText: '<',
+            nextText: '>'
+        });
+    });
+</script>
+    
+</head>
+<body background="background.jpg">
+
+    <div id="main">
+        <div id="content">
+             <div>
+                <button id="instructions"type="button" class="btn btn-warning">Instructions</button>
+                <button id="scoring" type="button" class="btn btn-danger">Score</button>
+            </div>
+           
+             <br> 
+            <div class="dog-mic">
+                <div class="slider-wrapper futurico-theme" style="cursor: pointer; position: relative; display:block; margin-left: auto; margin-right: auto;overflow: hidden; top: 0p;">
+                <div id="slider" class="nivoSlider">
+                    <img id="1" src="/images/cow.jpg" alt="" title="#caption1">
+                    <img id="2" src="/images/tiger.png" alt="" title="#caption1">
+                    <img id="3" src="/images/cat.jpg" alt="" title="#caption1">
+                    <img id="4" src="/images/monkey.png" alt="" title="#caption1">
+                    <img id="5" src="/images/horse.gif" alt="" title="#caption1">
+                    <img id="6" src="/images/giraffe.png" alt="" title="#caption1">
+                    <img id="7" src="/images/hen.png" alt="" title="#caption1">
+                    <img id="8" src="/images/zebra.png" alt="" title="#caption1">
+                    <img id="9" src="/images/dolphin.png" alt="" title="#caption1">
+                    <img id="10" src="/images/pig.png" alt="" title="#caption1">
+                    <img id="11" src="/images/camel.jpg" alt="" title="#caption1">
+                    <img id="12" src="/images/crab.png" alt="" title="#caption1">
+                    <img id="13" src="/images/bear.png" alt="" title="#caption1">
+                    <img id="14" src="/images/sheep.png" alt="" title="#caption1">
+                    <img id="15" src="/images/goat.jpg" alt="" title="#caption1">
+                    <img id="16" src="/images/turtle.png" alt="" title="#caption1">
+                    <img id="17" src="/images/fox.png" alt="" title="#caption1">
+                    <img id="18" src="/images/walrus.jpg" alt="" title="#caption1">
+                    <img id="19" src="/images/elephant.png" alt="" title="#caption1">
+                    <img id="20" src="/images/dog.jpg" alt="" title="#caption1">
+                </div>
+                <div id="caption1" class="nivo-html-caption">
+                    <strong>Who am I</strong> <span></span> <em></em>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
